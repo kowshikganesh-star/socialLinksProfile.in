@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+   
+    background-color: hsl(0, 0%, 8%);
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-top:2.5rem;
+    font-family: "Inter", serif;
+    
+    ::-webkit-scrollbar{
+        display:none;
+    }
+}
+
+h1{
+    
+    font-size:25px;
+    margin-bottom: -10px;
+    font-weight: 700;
+    
+}
+.button{
+    font-weight:900;
+    
+}
+h4{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+div  h4{
+    color:hsl(75, 94%, 57%);
+}
+p{
+    font-size: 14px;
+    font-weight: 200;
+    
+}
+
+
+
+
+.border{
+    
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    overflow: scroll;
+
+  
+   
+    
+    
+    
+
+}
+
+
+
+@media screen and (max-width: 480px){
+    .border{
+        width:85%;
+        height:90vh;
+    }
+
+    .border button{
+        width:90%;
+        height:7vh;
+    }
+    button:hover{
+     
+      width:91%;
+      height: 8vh;
+}
+
+   
+}
+
+@media screen and ( min-width:481px){
+    .border{
+        width:65%;
+        height:90vh;
+    }
+
+    .border button{
+        width:80%;
+        height:7vh;
+    }
+    button:hover{
+     
+      width:81%;
+      height: 8vh;
+}
+
+   
+}
+
+@media screen and (min-width: 601px){
+    .border{
+        width:50%;
+        height:90vh;
+    
+    }
+
+    .border button{
+        width:80%;
+        height:7vh;
+    }
+    button:hover{
+     
+      width:81%;
+      height: 8vh;
+}
+
+   
+}
+
+@media screen  and (min-width:769px){
+    .border{
+        width:40%;
+        height:90vh;
+    
+    }
+
+    .border button{
+        width:80%;
+        height:7vh;
+    }
+    button:hover{
+     
+      width:81%;
+      height: 8vh;
+}
+}
+
+@media screen  and (min-width:1025px){
+    .border{
+        width:35%;
+        height:90vh;
+    
+    }
+
+    .border button{
+        width:80%;
+        height:7vh;
+    }
+    button:hover{
+     
+      width:81%;
+      height: 8vh;
+}
+}
+
+@media screen  and (min-width:1281px){
+    .border{
+        width:30%;
+        height:90vh;
+    
+    }
+
+    .border button{
+        width:80%;
+        height:7vh;
+    }
+    button:hover{
+      width:81%;
+      height: 8vh;
+}
+}
+
+
+.border button{
+    border:none;
+    color:rgb(233, 233, 244);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;   
+}
+button:hover{
+      background-color: hsl(75, 94%, 57%);
+      color:black;
+}
+button.active{
+    background-color: hsl(75, 94%, 57%);
+    color:black
+}
+img{
+    border-radius: 50%;
+    width:100px;
+    
+}
+
+
+@media  all and (max-height: 400px) {
+    .border {
+        width:60vw;
+        height:90%;
+    }
+   .border .button{
+      width:80%;
+      height:15vh
+   }
+}
